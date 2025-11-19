@@ -10,16 +10,23 @@ Node module and CLI for controlling Zoom meetings on macOS using AppleScript.
 
 ## Installation
 
-### As a global CLI tool
+### Via Homebrew (Recommended)
 
 ```bash
-npm install -g zoom-cli
+brew tap rjames86/tap
+brew install zoom-cli
+```
+
+### Via npm (from GitHub)
+
+```bash
+npm install -g https://github.com/rjames86/zoom-cli.git
 ```
 
 ### As a project dependency
 
 ```bash
-npm install zoom-cli
+npm install https://github.com/rjames86/zoom-cli.git
 ```
 
 ## Usage
