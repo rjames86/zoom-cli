@@ -146,6 +146,10 @@ npm run build
 npm run watch
 ```
 
+## Distribution
+
+For information about publishing and maintaining this package via Homebrew, see [HOMEBREW_GUIDE.md](HOMEBREW_GUIDE.md).
+
 ## How it Works
 
 This tool uses AppleScript to interact with the Zoom desktop application through macOS's System Events. It reads the menu items to determine the current state and clicks menu items to perform actions.
