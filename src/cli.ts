@@ -16,19 +16,15 @@ const commands = {
 	},
 	"toggle-audio": async () => {
 		const result = await toggleAudio();
-		console.log(`Audio: ${result}`);
 	},
 	"toggle-video": async () => {
 		const result = await toggleVideo();
-		console.log(`Video: ${result}`);
 	},
 	"toggle-participants": async () => {
 		const result = await toggleParticipants();
-		console.log(`Participants: ${result}`);
 	},
 	"toggle-chat": async () => {
 		const result = await toggleChat();
-		console.log(`Chat: ${result}`);
 	},
 	leave: async () => {
 		await leaveMeeting();
